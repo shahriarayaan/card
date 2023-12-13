@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+}
+.contact-info img{
+    width: 30px;
+    height: 30px;
+}
+#mail{
+    display: flex;  
+}
+#mail p{
+    font-weight: 400;
+    color: #344050;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    width: 50px;
+    height: 50px ;
+}
+#logo-text{
+    font-weight: 500;
+    color: #344050;
+    margin-left: 10px;
+}
+.mujib img{
+    width: 130px ;
+    height: 90px;
+}
+
+/* navigation bar  */
+.navigation{
+    padding: 40px 400px 0px;
+}
+
+.navigation a{
+    color: black;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 400;
+    padding: 6px 15px;
+    position: relative;
+    transition: 0.5s;
+}
+.navigation a:hover{
+    color: white;
+}
+.navigation a span{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: gray;
+    z-index: -1;
+    border-radius: 30px;
+    transform: scale(0);
+    transition: 0.5s;
+}
+.navigation a:hover span{
+    transform: scale(1);
+}
+
+/* Image section at the top */
+#minar {
+    width: 1901px;
+    padding-top: 40px;
+}
+
+
+/* notice section */
+#notice{
+    font-weight: 600;
+    color: #344050;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 30px;
+    text-decoration: underline 1px;
+}
+.notice-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+    display: flex;
+    margin-top: 100px; 
+    gap: 30px;
+    width: 700px;
+    box-shadow: 5px 5px 30px 5px lightgray;
+}
+.box1 div p{
+    padding-top: 20px;
+}
+.box1 div h3{
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #5E6E82 ;
+}
+#notice-button{
+    border-radius: 5px;
+    border-color: #2C7BE5;
+    height: 50px;
+    width: 200px;
+    margin-left: 850px;
+    margin-top: 90px;
+    background-color: transparent;
+}
+#notice-button a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2C7BE5;
+}
+
+
+/* news and events */
+
+#news-n-events{
+    color:#344050;
+    font-size:40px;
+    font-weight:600;
+    text-align: center;
+    padding: 70px 0px;
+}
+.parent-news{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 150px 0px 150px;
+}
+.news{
+    height:545px ;
+    width:750px ;
+    box-shadow: 5px 5px 30px 5px lightgray;
+    border-radius: 10px;
+}
+
+.news-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom:  1px solid rgb(200, 200, 200);
+}
+.news-box h5{
+    font-size: 19.2px;
+    font-weight: 500;
+    color: #344050;
+}
+.news-box button{
+    height:40px ;
+    width: 150px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #000000;
+}
+.news-box button a{
+    font-size:16px ;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+}
+.news-box1{
+    display: flex;
+    padding: 30px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+.news-box1 img{
+    width: 50px;
+    height: 60px;
+    padding-right:20px;
+}
+.news-box1 div h5{
+    font-size: 16px;
+    color: #344050;
+    font-weight: 500;
+}
+.news-box1 div p{
+    font-size: 13px;
+    color: #9da9bb;
+}
+.events{
+    width:750px ;
+    height: 150px;
+    background-color: transparent;
+    box-shadow: 5px 5px 30px 5px lightgray;
+    border-radius: 10px;
+}
+.events-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.events-box button{
+    height:40px ;
+    width: 150px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #000000;
+}
+.events-box button a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+}
+.events-box h5{
+    font-size: 19px;
+    color: #344050;
+    font-weight: 500;
+}
+.event-box1 {
+    display: flex;
+    padding: 10px;
+}
+.event-box1 img{
+    width: 70px;
+    height: 70px;
+}
+.event-box1 h5{
+    text-decoration: none;
+    color: #344050;
+    font-size: 23.4px;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+/* message section */
+
+
+#message-head-text{
+    font-size: 40px;
+    font-weight: 600 ;
+    color: #344050 ;
+    text-align: center;
+    margin-top: 200px;
+}
+.professor-message{
+    display: flex;
+    padding: 20px 450px 150px 450px;
+    justify-content: center;
+}
+.professor-img img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
+.professors-speech{
+    padding-left: 70px;
+}
+.professors-speech h4{
+    font-size: 23px;
+    font-weight: 500;
+    color: #344050;
+}
+.professors-speech p{
+    font-size: 16px ;
+    font-weight: 500;
+    color: #748174;
+    padding-top: 10px;
+}
+.professors-speech button{
+    height:40px ;
+    width: 150px;
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: #2C7BE5;
+    margin-top: 20px;
+}
+.professors-speech button a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+    color: #2C7BE5;
+}
+
+/* links and contact */
+
+
+.links-and-details-section{
+    background-color: #0B1727;
+    padding: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 200px;
+}
+.sgc-sylhet{
+    width: 900px;
+}
+.sgc-sylhet h4{
+    font-size: 23px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.sgc-sylhet p{
+    font-size: 13px;
+    color: #b6c1d2;
+    font-weight: 400;
+    padding-top: 15px;
+}
+.sgc-sylhet button{
+    background-color: #748194;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.sgc-sylhet button a{
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+}
+.important-links{
+    width: 500px;
+}
+.important-links h4{
+    font-size: 23px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.important-links ul{
+    list-style-type: none;
+}
+.important-links ul li a{
+    text-decoration: none;
+    color: #b6c1d2;
+    font-size: 16px;
+    font-weight: 400;
+}
+.contacts h4{
+    color: #ffffff;
+    font-size: 23px;
+    padding-bottom: 15px;
+}
+.contacts address{
+    color: #b6c1d2;
+    font-size: 16px;
+    font-weight: 400;
+}
+.contacts p{
+    color: #b6c1d2;
+    font-size: 16px;
+    font-weight: 400;
+}
